@@ -1,0 +1,446 @@
+html{
+    scroll-behavior: smooths;
+    scroll-snap-type: proximity;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+li{
+    list-style: none;
+}
+i{
+    color: #2fccd0;
+}
+.header{
+    background-image: linear-gradient(rgba(0, 168, 255, 0.43),rgba(0,168,255,0.3)),url(../images/220-SM904574.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0% 75%, 0 0);
+    position:relative;
+}
+.header:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%)
+}
+.navbar:before{
+     content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%)
+}
+.nav-item a{
+     color: #fff;
+    font-weight: bold;
+}
+.navbar-brand{
+    
+    color: #fff;
+}
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top:30%;
+}
+
+.header-button a{
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    margin: 0px 5px;
+    border-radius: 20px;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+}
+.header-button a:hover{
+    background-color: #fff;
+    color: #50d1c0;
+    text-decoration: none;
+    border: 2px solid #50d1c0;
+    border-radius: 22px;
+    font-weight: bolder;
+    box-shadow: 0 0 20px 0 rgba{0,0,0,0.3};  
+}
+.center-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: #fff;
+}
+/*-------------header part ends---------------------*/
+
+/*------------THREE EXTRA DIV START-----------------*/
+.header-extradiv{
+    margin: 100px 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.extra-div h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    white-space: 4px;
+    
+}
+.extra-div a{
+    font-size: 50px;
+}
+.extra-div p{
+    text-align: justify;
+    padding: 0px 30px;
+}
+.extra-div{
+    transition: all .4s ease-in-out;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 206, 255, 0.51);
+    transform: translatey(-20px);
+}
+/*------------THREE EXTRA DIV end-----------------*/
+
+
+/*------------service offers section starts-----------------*/
+.serviceoffers{
+    background-color: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.heading{
+    margin-bottom: 50px; 
+}
+.heading h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.name h1{
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    font-weight: bold;  
+}
+.servicediv h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+.service-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+    height: 14px!important;
+}
+/*------------service offers section endss-----------------*/
+
+/*------------more than 2000 website created---------------*/
+
+
+
+/*------------more than 2000 website created---------------*/
+
+/*---------------our pricing starts---------------*/
+.pricing{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    position:relative;
+}
+.pricing:before{
+     content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: linear-gradient(160deg, #1e5799 55%, #fff 0%)
+}
+.card-body span{
+    font-size: 40px;
+    line-height: 1;
+    color:red;
+}
+.card{
+    transition: all .3s ease;
+}
+.card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: #fff;
+    padding: 25px 0!important;
+}
+.card-body{
+    padding: 30px 0px!important;
+}
+.card-body li{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #606060;  
+}
+.card-footer{
+    background-color: white!important;
+    padding: 30px 0px!important;
+}
+.card-footer a{
+    border: 2px solid #1e5799;
+    padding: 10px 30px;
+    margin: 0px 5px;
+    border-radius: 20px;
+    color: #1e5799;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all .4s ease-in-out;
+}
+.card:hover .card-footer a{
+    background-color: #1e5799;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 25px;
+    font-weight: bolder;
+    box-shadow: 0px 0px  20px 0px rgba(0, 1, 2, 0.33);
+    transform: scale(1.0);
+}
+.card:hover{
+    transform: translatey(-20px);
+    box-shadow: 0px 0px 20px 0px rgba(0, 1, 2, 0.33);
+} 
+.card:hover ,.card:hover .card-body span,.card:hover .card-header{
+    color: #1e5799;
+    box-shadow: 0px 0px 10  0px 20px rgba(0, 1, 2, 0.33);
+}
+.card-second{
+    box-shadow: 0px 0px  20px 2px rgba(0, 1, 2, 0.33);
+}
+/*---------------our pricing ends---------------------*/
+
+
+/*---------------customer feedback start---------------*/
+.happyclients{
+    width: 100%;
+    height: 110vh;
+    padding: 80px;
+}
+.box{
+    text-align: center;
+    border: 5px solid rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    border-radius: 2px;
+    transition: .3s ease;
+    
+}
+.box:hover{
+    background-color: #16c9f6;
+    transform: scale(.96);
+}
+.box:hover p{
+    color: white;
+}
+.carousel-indicators{
+    position: absolue;
+    right: 0px;
+    bottom: -60px!important;
+}
+.carousel-indicators li{
+    background-color: red!important;
+}
+.box a{
+    position: relative;
+}
+.box a img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.box a:after{
+    content: "\f10d";
+    font-family: FontAwesome;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(28, 209, 252);
+    color: white;
+    position: absolute;
+    top:120%;
+    left: 70%;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*---------------contact us start---------------*/
+.contactus{
+    width: 100%;
+    height: 100vh;
+    padding: 80px;
+    position: relative;
+}
+.contactus:before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: linear-gradient(330deg, #1e5799 55%, #fff 0%)   
+}
+.fbutton button{
+    border: 0px transparent ;
+    padding: 10px 30px;
+    margin: 0px 5px;
+    border-radius: 20px;
+    color: transparent;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+    background: transparent;
+}
+form:hover .fbutton button{
+    background-color: #fff;
+    color: #50d1c0;
+    text-decoration: none;
+    border: 2px solid #50d1c0;
+    border-radius: 22px;
+    font-weight: bolder;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3); 
+    
+}
+
+
+
+
+
+
+
+
+/*---------------contact us end---------------*/
+
+
+/*---------------newsletter starts---------------*/
+.newsletter{
+    width: 100%;
+    height: auto;
+    padding: 80px;
+    position: relative;
+}
+.input-group input{
+    border-radius: 100px 0 0 100px;
+}
+.input-group-append span{
+    background: rgba(31, 133, 208, 0.69);
+    color: aliceblue;
+    border-radius: 100px;
+    width: 120px;
+}
+
+
+
+/*---------------newsletter ends---------------*
+
+/*---------------customer feedback ends----------------*/
+
+/*---------------footer start---------------*/
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 80px;
+    position: relative;
+    text-transform: capitalize;
+    background-color: #00abff;
+}
+.footersection p{
+    color: #fff;
+}
+
+.footersection li a{
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center!important;
+}
+.fdi p{
+    font-size: 13px;
+    text-align: justify; 
+}
+
+/*---------------footer ends---------------*/
+
+
+/*---------arrow----------*/
+#mybtn{
+    right: 40px;
+    z-index: 99;
+    color: #fff;
+    background: red;
+    position: fixed;
+    bottom: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+#mybtn:hover{
+    background: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
